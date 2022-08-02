@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafe</title>
+    <link rel="stylesheet" href="cmn\css\destyle.css">
+    <link rel="stylesheet" href="cmn\css\style.css">
+</head>
+<body>
+    <header>
+        <div class="header-nav">
+            <h1>Cafe</h1>
+            <div class="openbtn"><span></span><span></span><span></span></div>
+            <nav id="g-nav">
+                <ul>
+                    <li><a href="#access">Contact</a></li>  
+                </ul>
+            </nav>
+        </div>
+        <h2>Title</h2>
+        <div id="video-area">
+            <video id="video" poster="cmn\img\ar1hk-66k8s.jpg" webkit-playsinline playsinline muted autoplay loop>
+                <!--
+                poster：動画ファイルが利用できない環境で代替表示される画像
+                webkit-playsinline：iOS 9までのSafari用インライン再生指定
+                playsinline：iOS 10以降のSafari用インライン再生指定
+                muted：音声をミュートさせる
+                autoplay：動画を自動再生させる
+                loop：動画をループさせる
+                controls：コントロールバーを表示する
+                -->
+                <source src="cmn\img\cafe.mp4" type="video/mp4">
+                <p>動画を再生できる環境ではありません。</p>
+            </video>
+        <!--/video-area--></div>
+        <div class="scrolldown4"><span>Scroll</span></div>
+    </header>
+    <main>
+        <section id="access">
+            <div class="access">
+                <h3>Cafe</h3>
+                <div class="access-content">
+                    <div class="address">
+                        <h4>Adress</h4>
+                        <p>
+                            〒619-0225 <br>
+                            京都府木津川市1-1-1 <br>
+                            <a href="https://goo.gl/maps/XSmXbMxUMbjpd1VMA"target="_blank" rel="noopener noreferrer">Google Mapで見る</a>
+                        </p>
+                    </div>
+                    <div class="contact">
+                        <h4>Contact</h4>
+                        <p>
+                            080-0000-0000<br>
+                            cafe@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="cmn\js\index.js"></script>
+</body>
+</html>
